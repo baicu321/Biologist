@@ -1,17 +1,17 @@
-[17:48:04] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.17.2
-[17:48:04] [main/DEBUG] (FabricLoader/GamePatch) Found game constructor: net.minecraft.client.main.Main -> net.minecraft.client.MinecraftClient
-[17:48:04] [main/DEBUG] (FabricLoader/GamePatch) Patching game constructor <init>(Lnet/minecraft/client/RunArgs;)V
-[17:48:04] [main/DEBUG] (FabricLoader/GamePatch) Run directory field is thought to be net/minecraft/client/MinecraftClient/runDirectory
-[17:48:04] [main/DEBUG] (FabricLoader/GamePatch) Applying brand name hook to net/minecraft/client/ClientBrandRetriever::getClientModName
-[17:48:04] [main/DEBUG] (FabricLoader/GamePatch) Applying brand name hook to net/minecraft/server/MinecraftServer::getServerModName
-[17:48:05] [main/DEBUG] (FabricLoader/Mappings) Loading mappings took 119.61 ms
-[17:48:05] [main/DEBUG] (FabricLoader/GamePatch) Patched 3 classs
-[17:48:05] [main/DEBUG] (FabricLoader/Discovery) Mod discovery time: 64.8 ms
-[17:48:05] [main/WARN] (FabricLoader/Resolution) Mod resolution failed
-[17:48:05] [main/INFO] (FabricLoader/Resolution) Immediate reason: [HARD_DEP_NO_CANDIDATE trinkets 3.7.2 {depends cardinal-components-base @ [>=3.0.0-0]}, ROOT_FORCELOAD_SINGLE trinkets 3.7.2]
-[17:48:05] [main/INFO] (FabricLoader/Resolution) Reason: [HARD_DEP trinkets 3.7.2 {depends cardinal-components-base @ [>=3.0.0-0]}, HARD_DEP trinkets 3.7.2 {depends cardinal-components-entity @ [>=3.0.0-0]}]
-[17:48:05] [main/INFO] (FabricLoader/Resolution) Fix: add [add:cardinal-components-base 3.0.0-0 ([[3.0.0-0,∞)]), add:cardinal-components-entity 3.0.0-0 ([[3.0.0-0,∞)])], remove [], replace []
-[17:48:05] [main/ERROR] (FabricLoader) Incompatible mods found!
+[17:51:47] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.17.2
+[17:51:47] [main/DEBUG] (FabricLoader/GamePatch) Found game constructor: net.minecraft.client.main.Main -> net.minecraft.client.MinecraftClient
+[17:51:47] [main/DEBUG] (FabricLoader/GamePatch) Patching game constructor <init>(Lnet/minecraft/client/RunArgs;)V
+[17:51:47] [main/DEBUG] (FabricLoader/GamePatch) Run directory field is thought to be net/minecraft/client/MinecraftClient/runDirectory
+[17:51:47] [main/DEBUG] (FabricLoader/GamePatch) Applying brand name hook to net/minecraft/client/ClientBrandRetriever::getClientModName
+[17:51:47] [main/DEBUG] (FabricLoader/GamePatch) Applying brand name hook to net/minecraft/server/MinecraftServer::getServerModName
+[17:51:47] [main/DEBUG] (FabricLoader/Mappings) Loading mappings took 110.12 ms
+[17:51:47] [main/DEBUG] (FabricLoader/GamePatch) Patched 3 classs
+[17:51:47] [main/DEBUG] (FabricLoader/Discovery) Mod discovery time: 16.5 ms
+[17:51:47] [main/WARN] (FabricLoader/Resolution) Mod resolution failed
+[17:51:47] [main/INFO] (FabricLoader/Resolution) Immediate reason: [HARD_DEP_NO_CANDIDATE trinkets 3.7.2 {depends cardinal-components-base @ [>=3.0.0-0]}, ROOT_FORCELOAD_SINGLE trinkets 3.7.2]
+[17:51:47] [main/INFO] (FabricLoader/Resolution) Reason: [HARD_DEP trinkets 3.7.2 {depends cardinal-components-base @ [>=3.0.0-0]}, HARD_DEP trinkets 3.7.2 {depends cardinal-components-entity @ [>=3.0.0-0]}]
+[17:51:47] [main/INFO] (FabricLoader/Resolution) Fix: add [add:cardinal-components-base 3.0.0-0 ([[3.0.0-0,∞)]), add:cardinal-components-entity 3.0.0-0 ([[3.0.0-0,∞)])], remove [], replace []
+[17:51:47] [main/ERROR] (FabricLoader) Incompatible mods found!
 net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
 确定了一种可能的解决方法，这样做可能会解决你的问题：
 	 - 安装 cardinal-components-base，3.0.0-0 及以上版本。
