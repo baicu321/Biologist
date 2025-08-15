@@ -105,54 +105,65 @@
 [Architectury Transformer DEBUG]  - C:\Users\cu6\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.82.Final\c7350a71920f3ae9142945e25fed4846cce53374\netty-transport-native-epoll-4.1.82.Final-linux-x86_64.jar
 [Architectury Transformer DEBUG]  - C:\Users\cu6\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.82.Final\476409d6255001ca53a55f65b01c13822f8dc93a\netty-transport-native-epoll-4.1.82.Final-linux-aarch_64.jar
 [Architectury Transformer DEBUG]  - D:\Biologist\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_20_1_1_20_1_build_1_v2_forge_1_20_1_47_4_3_forge\dev\architectury\architectury-forge\9.2.14\architectury-forge-9.2.14.jar
-[Architectury Transformer] Read classpath in 1.270 s
+[Architectury Transformer] Read classpath in 1.233 s
 [Architectury Transformer DEBUG] Closed File Systems for D:\Biologist\common\build\devlibs\biologist-common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 8 transformer(s) from D:\Biologist\common\build\devlibs\biologist-common-1.0.0-dev.jar to C:\Users\cu6\AppData\Local\Temp\5825905860183049522.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@588df31b
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@33b37288
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@77a57272
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@7181ae3f
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@46238e3f
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@6e2c9341
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@32464a14
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@4e4aea35
-[Architectury Transformer DEBUG] Transforming from D:\Biologist\common\build\devlibs\biologist-common-1.0.0-dev.jar to C:\Users\cu6\AppData\Local\Temp\5825905860183049522.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming 8 transformer(s) from D:\Biologist\common\build\devlibs\biologist-common-1.0.0-dev.jar to C:\Users\cu6\AppData\Local\Temp\12743911551512859959.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@70beb599
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@4e41089d
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@32a068d1
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@33cb5951
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@365c30cc
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@701fc37a
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@4148db48
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@282003e1
+[Architectury Transformer DEBUG] Transforming from D:\Biologist\common\build\devlibs\biologist-common-1.0.0-dev.jar to C:\Users\cu6\AppData\Local\Temp\12743911551512859959.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$142/0x000001521108e868@1b083826
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$142/0x000001f8a308e868@5af97850
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing committee/nova/BiologistMod with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing committee/nova/registry/ModItems with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing committee/nova/biologist/BiologistMod with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing committee/nova/biologist/item/GuideCritter with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing committee/nova/biologist/registry/ModItems with maxs=true frames=true
 [Architectury Transformer DEBUG] Checking whether /biologist.mixins.json is a mixin config.
 [Architectury Transformer DEBUG] Checking whether /biologist.mixins.json is a mixin config.
 [Architectury Transformer DEBUG] Found mixin config(s): biologist.mixins.json
 [Architectury Transformer DEBUG] Appended Launch Argument: [--mixin.config, biologist.mixins.json]
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: biologist-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\cu6\AppData\Local\Temp\5825905860183049522.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\cu6\AppData\Local\Temp\12743911551512859959.jar
 [Architectury Transformer] Listening at D:\Biologist\common\build\devlibs\biologist-common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Temporary jar [C:\Users\cu6\AppData\Local\Temp\5825905860183049522.jar] contains packages: committee.nova, committee.nova.biologist.registry
+[Architectury Transformer DEBUG] Temporary jar [C:\Users\cu6\AppData\Local\Temp\12743911551512859959.jar] contains packages: committee.nova.biologist, committee.nova.biologist.item, committee.nova.biologist.registry
 [Architectury Transformer DEBUG] Closed File Systems for D:\Biologist\common\build\devlibs\biologist-common-1.0.0-dev.jar
 [Architectury Transformer DEBUG] Classpath entry [D:\Biologist\forge\build\resources\main] contains packages: 
-[Architectury Transformer DEBUG] Transforming from committee/nova/BiologistMod.class to committee/nova/BiologistMod.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Transforming from committee/nova/biologist/BiologistMod.class to committee/nova/biologist/BiologistMod.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$142/0x000001521108e868@1b083826
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$142/0x000001f8a308e868@5af97850
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing committee/nova/BiologistMod with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing committee/nova/biologist/BiologistMod with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: biologist-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed committee/nova/BiologistMod in 67.86 ms
-[Architectury Transformer DEBUG] Transforming from committee/nova/registry/ModItems.class to committee/nova/registry/ModItems.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Transformed committee/nova/biologist/BiologistMod in 67.36 ms
+[Architectury Transformer DEBUG] Transforming from committee/nova/biologist/registry/ModItems.class to committee/nova/biologist/registry/ModItems.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$142/0x000001521108e868@1b083826
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$142/0x000001f8a308e868@5af97850
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing committee/nova/registry/ModItems with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing committee/nova/biologist/registry/ModItems with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: biologist-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed committee/nova/registry/ModItems in 17.59 ms
+[Architectury Transformer DEBUG] Transformed committee/nova/biologist/registry/ModItems in 19.40 ms
+[Architectury Transformer DEBUG] Transforming from committee/nova/biologist/item/GuideCritter.class to committee/nova/biologist/item/GuideCritter.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$142/0x000001f8a308e868@5af97850
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing committee/nova/biologist/item/GuideCritter with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: biologist-forge-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed committee/nova/biologist/item/GuideCritter in 20.11 ms
