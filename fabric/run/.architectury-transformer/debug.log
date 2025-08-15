@@ -117,35 +117,35 @@
 [Architectury Transformer DEBUG]  - D:\Biologist\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_20_1_1_20_1_build_1_v2\net\fabricmc\fabric-api\fabric-resource-loader-v0\0.11.12+fb82e9d777\fabric-resource-loader-v0-0.11.12+fb82e9d777.jar
 [Architectury Transformer DEBUG]  - D:\Biologist\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_20_1_1_20_1_build_1_v2\net\fabricmc\fabric-api\fabric-sound-api-v1\1.0.14+1802ada577\fabric-sound-api-v1-1.0.14+1802ada577.jar
 [Architectury Transformer DEBUG]  - D:\Biologist\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_20_1_1_20_1_build_1_v2\net\fabricmc\fabric-api\fabric-transitive-access-wideners-v1\4.3.2+1802ada577\fabric-transitive-access-wideners-v1-4.3.2+1802ada577.jar
-[Architectury Transformer] Read classpath in 1.233 s
+[Architectury Transformer] Read classpath in 1.194 s
 [Architectury Transformer DEBUG] Closed File Systems for D:\Biologist\common\build\devlibs\biologist-common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from D:\Biologist\common\build\devlibs\biologist-common-1.0.0-dev.jar to C:\Users\cu6\AppData\Local\Temp\13345785939232541573.jar: 
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from D:\Biologist\common\build\devlibs\biologist-common-1.0.0-dev.jar to C:\Users\cu6\AppData\Local\Temp\8676203055681700779.jar: 
 [Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@4d1b0d2a
 [Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@954b04f
 [Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@149494d8
 [Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@710726a3
 [Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@646007f4
-[Architectury Transformer DEBUG] Transforming from D:\Biologist\common\build\devlibs\biologist-common-1.0.0-dev.jar to C:\Users\cu6\AppData\Local\Temp\13345785939232541573.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming from D:\Biologist\common\build\devlibs\biologist-common-1.0.0-dev.jar to C:\Users\cu6\AppData\Local\Temp\8676203055681700779.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing committee/nova/biologist/BiologistMod with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing committee/nova/biologist/item/GuideCritter with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing committee/nova/biologist/item/GuideEnvironmental with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing committee/nova/biologist/registry/ModItems with maxs=true frames=true
 [Architectury Transformer DEBUG] Checking whether /biologist.mixins.json is a mixin config.
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\cu6\AppData\Local\Temp\13345785939232541573.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\cu6\AppData\Local\Temp\8676203055681700779.jar
 [Architectury Transformer] Listening at D:\Biologist\common\build\devlibs\biologist-common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Temporary jar [C:\Users\cu6\AppData\Local\Temp\13345785939232541573.jar] contains packages: committee.nova.biologist, committee.nova.biologist.item, committee.nova.biologist.registry
+[Architectury Transformer DEBUG] Temporary jar [C:\Users\cu6\AppData\Local\Temp\8676203055681700779.jar] contains packages: committee.nova.biologist, committee.nova.biologist.item, committee.nova.biologist.registry
 [Architectury Transformer DEBUG] Closed File Systems for D:\Biologist\common\build\devlibs\biologist-common-1.0.0-dev.jar
 [Architectury Transformer DEBUG] Classpath entry [D:\Biologist\fabric\build\resources\main] contains packages: 
 [Architectury Transformer DEBUG] Transforming from committee/nova/biologist/BiologistMod.class to committee/nova/biologist/BiologistMod.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing committee/nova/biologist/BiologistMod with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed committee/nova/biologist/BiologistMod in 633.8 μs
+[Architectury Transformer DEBUG] Transformed committee/nova/biologist/BiologistMod in 717.9 μs
 [Architectury Transformer DEBUG] Transforming from committee/nova/biologist/registry/ModItems.class to committee/nova/biologist/registry/ModItems.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing committee/nova/biologist/registry/ModItems with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed committee/nova/biologist/registry/ModItems in 816.8 μs
+[Architectury Transformer DEBUG] Transformed committee/nova/biologist/registry/ModItems in 636.8 μs
 [Architectury Transformer DEBUG] Transforming from committee/nova/biologist/item/GuideCritter.class to committee/nova/biologist/item/GuideCritter.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing committee/nova/biologist/item/GuideCritter with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed committee/nova/biologist/item/GuideCritter in 205.4 μs
+[Architectury Transformer DEBUG] Transformed committee/nova/biologist/item/GuideCritter in 253.1 μs
