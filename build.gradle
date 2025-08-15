@@ -24,14 +24,11 @@ subprojects {
     }
 
     repositories {
+
+
         maven {
             name = "Modrinth"
             url = "https://api.modrinth.com/maven"
-        }
-        maven {
-            // location of a maven mirror for JEI files, as a fallback
-            name = "ModMaven"
-            url = "https://modmaven.dev"
         }
     }
 
